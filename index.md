@@ -91,20 +91,24 @@ permalink: /
 		      <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
 		      <li data-target="#image-carousel" data-slide-to="1"></li>
 		      <li data-target="#image-carousel" data-slide-to="2"></li>
+		      <li data-target="#image-carousel" data-slide-to="3"></li>
 		    </ol>
 
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		      <div class="item active">
-		        <img src="/assets/images/carousel-1.jpg" alt="Los Angeles">
+		        <img src="/assets/images/carousel-1.jpg" alt="Tauheedah and two friends unloading a truck">
 		      </div>
 
 		      <div class="item">
-		        <img src="/assets/images/carousel-2.jpg" alt="Chicago">
+		        <img src="/assets/images/carousel-2.jpg" alt="Tauheedah moving boxes">
 		      </div>
 		    
 		      <div class="item">
-		        <img src="/assets/images/carousel-3.jpg" alt="New york">
+		        <img src="/assets/images/carousel-3.jpg" alt="Group photo of high school girls pageant">
+		      </div>
+		      <div class="item">
+		        <img src="/assets/images/carousel-4.jpg" alt="side shot of high school girls pageant">
 		      </div>
 		    </div>
 
