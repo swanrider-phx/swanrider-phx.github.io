@@ -97,15 +97,15 @@ permalink: /
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		      <div class="item active">
-		        <img src="/assets/images/carousel-1.jpg" alt="Tauheedah and two friends unloading a truck">
+		        <img src="/assets/images/carousel-1.JPG" alt="Tauheedah and two friends unloading a truck">
 		      </div>
 
 		      <div class="item">
-		        <img src="/assets/images/carousel-2.jpg" alt="Tauheedah moving boxes">
+		        <img src="/assets/images/carousel-2.JPG" alt="Tauheedah moving boxes">
 		      </div>
 		    
 		      <div class="item">
-		        <img src="/assets/images/carousel-3.jpg" alt="Group photo of high school girls pageant">
+		        <img src="/assets/images/carousel-3.JPG" alt="Group photo of high school girls pageant">
 		      </div>
 		      <div class="item">
 		        <img src="/assets/images/carousel-4.jpg" alt="side shot of high school girls pageant">
@@ -125,4 +125,4 @@ permalink: /
   	</div>
 
 
-</div>
+</div> <!-- end home-page -->
