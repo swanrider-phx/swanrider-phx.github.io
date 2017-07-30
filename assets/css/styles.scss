@@ -20,7 +20,6 @@ body {
 	padding: 10px;
 
 	.swan-logo {
-		width: 200px;
 
 		img {
 			display: block;
@@ -89,16 +88,14 @@ body {
 
 @media (max-width: 768px) {
 	.navbar-one {
-
-		.swan-logo, .social-links,
-		.address, .email-phone {
-			width: 50%;
+		.swan-logo {
+			width: initial;
 		}
 
-		.swan-logo { order: 1; }
-		.address { order: 3; }
-		.email-phone { order: 4; }
-		.social-links { order: 2; }
+		.address,
+		.email-phone .icon {
+			display: none;
+		}
 	}
 
 }
@@ -126,12 +123,20 @@ footer {
 }
 
 @media (max-width: 768px) {
-	footer .contact-us {
-		width: 45%;
+	footer {
+		flex-wrap: wrap;
+		padding: 5px;
 	}
+
+	footer .contact-us {
+		width: 85%;
+		margin: 15px 0px;
+	}
+
 	footer .social-links {
-		width: 45%;
+		width: 85%;
 		text-align: center;
+		margin: 15px 0px;
 	}
 }
 /********************
@@ -311,39 +316,31 @@ footer {
 			margin: 0px 25px;
 			padding: 60px 20px;
 			background-color: #8E4096;
+			color: #fff;
 		}
-	}
 
-	.testimonial img {
-	    position: relative;
-	    background: red;
-	    border-radius: 50%;
-	    top: -40px;
-	    margin: auto;
-	    display: block;
-	}
-
-	.testimonial p {
-		text-align: right;
-	    padding-right: 15px;
-	    padding-top: 15px;
-	    font-weight: 900;
+		.testimonial p {
+			text-align: right;
+		    padding-right: 15px;
+		    padding-top: 15px;
+		    font-weight: 900;
+		}
 	}
 
 	.sponsors-block {
-		padding: 55px 20px;
-		margin: 55px auto;
-		background-color: #A7A9AB;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-
-		.sponsor {
-			width: 75px;
-			height: 75px;
-			border-radius: 50%;
-			background-color: red;
+		margin: 50px 0px;
+		img {
+			width: 100%;
 		}
+	}
+
+	.image-gallery-container {
+		margin: 50px 0px;
+	}
+
+	#image-carousel {
+		width: 65%;
+		margin: auto;
 	}
 
 
@@ -383,6 +380,11 @@ footer {
 		margin-top: 65px;
 		 .help-option {
 		 	width: 75%;
+		 	padding: 20px 10px;
+		 }
+
+		 .help-option img {
+		 	display: none;
 		 }
 	}
 
