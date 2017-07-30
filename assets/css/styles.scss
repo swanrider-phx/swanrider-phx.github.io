@@ -482,7 +482,7 @@ footer {
 #give {
 
 	h4.quote {
-		margin: 35px 90px;
+		margin: 35px 10%;
 		text-align: center;
 	}
 
@@ -490,7 +490,7 @@ footer {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 10px 90px;
+		margin: 10px 10%;
 	}
 
 	.give-donation .text {
@@ -523,7 +523,7 @@ footer {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 10px 90px;
+		margin: 10px 10%;
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 		padding: 35px 0px;
@@ -560,7 +560,7 @@ footer {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 10px 90px;
+		margin: 10px 10%;
 		padding: 35px 0px;
 	}
 
@@ -598,4 +598,21 @@ footer {
 /********************
 	PROGRAMS PAGE 
 ********************/
+#programs {
+	.programs-container {
+		margin: 10px 10%;
+	}
+
+	.programs-container .program {
+		margin: 35px 0px;
+
+		h4 {
+			text-decoration: underline;
+		}
+
+		p {
+			padding-left: 15px;
+		}
+	}
+}
 
