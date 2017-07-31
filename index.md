@@ -6,14 +6,14 @@ permalink: /
 <div id="home-page">
 	<div class="hero-container">
 		<div class="image">
-			<img src="/assets/images/hero-image-small.jpg" alt="mom and daughter walking on the beach">
+			<img src="/assets/images/home-page/hero-image-small.jpg" alt="mom and daughter walking on the beach">
 		</div>
 		<div class="story">
 			<h2>Our	Story</h2>
 			<p>SWAN is dedicated to supporting victims and survivors of domestic violence as an initial point of contact to help get your life back.  We provide tools, education, and resources for victims for victims of domestic violence and their families.  We are a 501(c)3 organization and have provided services to women and families in the Phoenix area since 2007.</p>
 			<div class="help-btns">
 				<a href="/programs">Need help</a>
-				<a href="/give">Give help</a>
+				<a href="#help-bar">Give help</a>
 			</div>
 		</div>
 	</div>
@@ -35,14 +35,14 @@ permalink: /
 			<p>of abusers serve jail time</p>
 		</div>
 	</div>
-	<div class="help-bar">
+	<div class="help-bar" id="help-bar">
 		<h2>HOW YOU CAN HELP</h2>
 		<p>SWAN is seeking key resources for victims which include financial contributions, food, clothing, and housing.  Please click “DONATE NOW” to make a monetary donation and if you would like to donate resources or participate as a partner organization please contact call 623-329-1241.</p>
 		<div class="arrow-down"></div>
 	</div>
 	<div class="help-options-block">
 		<div class="help-option">
-			<img src="/assets/images/volunteer.png" alt="icon of three people" width="80" height="80">
+			<img src="/assets/images/home-page/volunteer.png" alt="icon of three people" width="80" height="80">
 			<div class="flex-container">
 				<h2>BECOME A VOLUNTEER</h2>
 				<p>We are looking for great volunteers to help with logistics, administrative tasks, storytelling, and social media.</p>
@@ -50,7 +50,7 @@ permalink: /
 			</div>
 		</div>
 		<div class="help-option">
-			<img src="/assets/images/donate.png" alt="money bag with a dollar sign" width="80" height="80">
+			<img src="/assets/images/home-page/donate.png" alt="money bag with a dollar sign" width="80" height="80">
 			<div class="flex-container">
 				<h2>GIVE DONATION</h2>
 				<p>Your donations are used to help support victims and their families with basic necessities including food, clothing, short-term shelter, rental assistance and automotive repair.</p>
@@ -58,7 +58,7 @@ permalink: /
 			</div>
 		</div>
 		<div class="help-option">
-			<img src="/assets/images/partner.png" alt="picture of a building" width="80" height="80">
+			<img src="/assets/images/home-page/partner.png" alt="picture of a building" width="80" height="80">
 			<div class="flex-container">
 				<h2>BECOME A PARTNER</h2>
 				<p>Join us as a local partner to help regularly provide housing, food, clothing, housewares, school supplies or furniture.</p>
@@ -82,7 +82,7 @@ permalink: /
 		</div>
 	</div>
 	<div class="sponsors-block">
-		<img src="/assets/images/logos.png" alt="logos of sponsors">
+		<img src="/assets/images/home-page/logos.png" alt="logos of sponsors">
 	</div>
 	<div class="image-gallery-container">
 		<div id="image-carousel" class="carousel slide" data-ride="carousel">
@@ -97,18 +97,18 @@ permalink: /
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		      <div class="item active">
-		        <img src="/assets/images/carousel-1.jpg" alt="Tauheedah and two friends unloading a truck">
+		        <img src="/assets/images/carousel/carousel-1.jpg" alt="Tauheedah and two friends unloading a truck">
 		      </div>
 
 		      <div class="item">
-		        <img src="/assets/images/carousel-2.jpg" alt="Tauheedah moving boxes">
+		        <img src="/assets/images/carousel/carousel-2.jpg" alt="Tauheedah moving boxes">
 		      </div>
 		    
 		      <div class="item">
-		        <img src="/assets/images/carousel-3.jpg" alt="Group photo of high school girls pageant">
+		        <img src="/assets/images/carousel/carousel-3.jpg" alt="Group photo of high school girls pageant">
 		      </div>
 		      <div class="item">
-		        <img src="/assets/images/carousel-4.jpg" alt="side shot of high school girls pageant">
+		        <img src="/assets/images/carousel/carousel-4.jpg" alt="side shot of high school girls pageant">
 		      </div>
 		    </div>
 

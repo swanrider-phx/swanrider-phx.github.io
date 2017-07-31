@@ -1,6 +1,10 @@
 ---
 ---
 
+@import 'about';
+@import 'give';
+@import 'home';
+
 body {
 	display: flex;
 	min-height: 100vh;
@@ -9,7 +13,7 @@ body {
 
 
 /********************
-	MAIN LAYOUT 
+	NAVIGATION
 ********************/
 
 .navbar-one {
@@ -77,12 +81,13 @@ body {
 		color: #fff;
 	}
 
-	button {
+	a.donate-btn {
 		border-radius: 5px;
 	    border: none;
 	    padding: 5px 25px;
 	    background-color: #FFCB5A;
 	    font-weight: 900;
+	    color: #000;
 	}
 }
 
@@ -99,6 +104,10 @@ body {
 	}
 
 }
+
+/****************
+	FOOTER
+*****************/
 
 footer {
 	display: flex;
@@ -139,268 +148,6 @@ footer {
 		margin: 15px 0px;
 	}
 }
-/********************
-	HOME PAGE 
-********************/
-
-#home-page {
-	.hero-container {
-		display: flex;
-		max-height: 450px;
-	}
-
-	.hero-container > * {
-		margin: 5px;
-		box-sizing: border-box;
-	}
-
-	.hero-container .image {
-		width: 60%;
-		/*height: 450px;*/
-
-		img {
-			width: 100%;
-			height: 100%;
-		}
-	}
-
-	.hero-container .story {
-		width: 40%;
-		padding: 0px 50px;
-		margin-left: 0px;
-		background-color: #FFCB5A;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-
-		h2 {
-			text-align: left;
-		}
-	}
-
-	.help-btns {
-		margin-top: 10px;
-		display: flex;
-		justify-content: space-around;
-	}
-
-	.help-btns a {
-		display: inline-block;
-		border-radius: 5px;
-		border: 1px solid white;
-		padding: 5px 40px;
-	    background-color: #8E4096;
-	    color: #fff;
-	}
-
-	.help-btns a:hover {
-		text-decoration: none;
-	}
-
-	.stats-bar {
-		height: 125px;
-		padding: 10px;
-		margin: 0px 5px 5px 5px;
-		background-color: #A7A9AB;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-
-		> * {
-			text-align: center;
-		}
-	}
-
-	.help-bar {
-		margin: 0px 5px 5px 5px;
-		padding: 40px 0px 20px 0px;
-		background-color: #8E4096;
-		color: white;
-
-		> * {
-			text-align: center;
-			margin: auto;
-		}
-
-		p {
-			width: 50%;
-		}
-
-		.arrow-down {
-			width: 0; 
-			height: 0; 
-			border-left: 30px solid transparent;
-			border-right: 30px solid transparent;
-			border-top: 40px solid #8E4096;
-			position: relative;
-			bottom: -60px;
-		}
-	}
-	
-	.help-options-icons {
-		display: flex;
-		justify-content: center;
-		margin-top: 75px;
-
-		.icon {
-			width: 25%;
-		}
-
-		.icon img {
-			display: block;
-			margin: auto;
-		}
-	}
-	.help-options-block {
-		display: flex;
-		justify-content: center;
-		margin: 100px 0px;
-
-		.help-option {
-			width: 25%;
-			margin: 5px;
-			padding: 0px 15px;
-			background-color: #A7A9AB;
-			text-align: center;
-		}
-
-		.help-option img {
-			display: block;
-			margin: auto;
-		    position: relative;
-		    bottom: 48px;
-		}
-
-		.help-option .flex-container {
-			min-height: 190px;
-		    display: flex;
-		    flex-direction: column;
-		    justify-content: space-between;
-		}
-
-		.help-option h2 {
-			font-size: 24px;
-			margin: 0px;
-		}
-
-		.help-option p {
-			margin: 0px;
-		}
-
-		.help-option a {
-			margin: 10px auto;
-			padding: 5px 25px;
-			border-radius: 5px;
-			border: 1px solid white;
-			background-color: #8E4096;
-			color: #fff;
-		}
-
-		.help-option a:hover {
-			text-decoration: none;
-		}
-	}
-
-	.testimonial-heading {
-		margin: 15px auto;
-		padding: 0px 0px 40px 0px;
-		text-align: center;
-	}
-
-	.testimonial-block {
-		display: flex;
-		justify-content: center;
-
-		.testimonial {
-			width: 23%;
-			margin: 0px 25px;
-			padding: 60px 20px;
-			background-color: #8E4096;
-			color: #fff;
-		}
-
-		.testimonial p {
-			text-align: right;
-		    padding-right: 15px;
-		    padding-top: 15px;
-		    font-weight: 900;
-		}
-	}
-
-	.sponsors-block {
-		margin: 50px 0px;
-		img {
-			width: 100%;
-		}
-	}
-
-	.image-gallery-container {
-		margin: 50px 0px;
-	}
-
-	#image-carousel {
-		width: 55%;
-		margin: auto;
-	}
-
-
-}
-
-@media (max-width: 768px) {
-	#home-page .hero-container {
-		flex-wrap: wrap;
-		max-height: initial;
-
-		.image {
-			width: 100%;
-		}
-
-		.story {
-			width: 100%;
-			padding-bottom: 20px;
-			margin-left: 5px;
-		}
-	}
-
-	#home-page .stats-bar {
-		flex-wrap: wrap;
-		height: initial;
-
-		.statistic {
-			width: 100%;
-		}
-	}
-
-	#home-page .help-options-icons {
-		display: none;
-	}
-
-	#home-page .help-options-block {
-		flex-wrap: wrap;
-		margin-top: 65px;
-		 .help-option {
-		 	width: 75%;
-		 	padding: 20px 10px;
-		 }
-
-		 .help-option img {
-		 	display: none;
-		 }
-	}
-
-	#home-page .testimonial-block {
-		flex-wrap: wrap;
-		.testimonial {
-			width: 75%;
-			margin: 7.5px 0px;
-		}
-	}
-
-	#home-page .testimonial img {
-		position: initial;
-		margin: 5px auto;
-	}
-}
 
 /*******************************
 	STICKY FOOTER AND HEADINGS
@@ -421,179 +168,6 @@ footer {
 	}
 }
 
-/********************
-	ABOUT PAGE 
-********************/
-#about {
-	.content {
-		margin: 10px 90px;
-	}
-
-	.our-story p {
-		font-size: 18px;
-	}
-
-	.tj-profile {
-		font-size: 18px;
-
-		img {
-			display: block;
-			margin: auto;
-			width: 200px;	
-		}
-	}
-
-	.tj-profile h5.img-subtitle {
-		text-align: center;
-		margin-bottom: 15px;
-	}
-
-	.tj-profile a.read-more {
-		cursor: pointer;
-	}
-
-	.tj-profile a.read-more:hover {
-		text-decoration: none;
-	}
-
-	.profile-pics {
-		display: flex;
-		justify-content: center;
-		padding: 25px 15px;
-
-		.profile {
-			margin: 0px 20px;
-		}
-
-		img {
-			display: block;
-		}
-
-		h5 {
-			text-align: center;
-		}
-	}
-}
-
-/********************
-	GIVE PAGE 
-*********************/
-
-#give {
-
-	h4.quote {
-		margin: 35px 10%;
-		text-align: center;
-	}
-
-	.give-donation {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin: 10px 10%;
-	}
-
-	.give-donation .text {
-		width: 45%;
-	}
-
-	.give-donation .text a {
-		display: inline-block;
-		padding: 10px 15px;
-	    border-radius: 5px;
-	    border: none;
-	    background-color: #8E4096;
-	    color: #fff;
-	    margin: 25px 5px;
-	}
-
-	.give-donation .text a:hover {
-		text-decoration: none;
-	}
-
-	.give-donation .image {
-		width: 45%;
-
-		img {
-			width: 100%;
-		}
-	}
-
-	.volunteer {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin: 10px 10%;
-		border-top: 2px solid black;
-		border-bottom: 2px solid black;
-		padding: 35px 0px;
-
-	}
-
-	.volunteer .text {
-		width: 45%;
-
-		a {
-			display: inline-block;
-			padding: 10px 15px;
-		    border-radius: 5px;
-		    border: none;
-		    background-color: #8E4096;
-		    color: #fff;
-		    margin: 25px 5px;
-		}
-
-		a:hover {
-			text-decoration: none;
-		}
-	}
-
-	.volunteer .quote {
-		width: 45%;
-
-		p:first-child {
-			font-style: italic;
-		}
-	}
-
-	.partner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin: 10px 10%;
-		padding: 35px 0px;
-	}
-
-	.partner .text {
-		width: 45%;
-	}
-
-	.partner .logos {
-		width: 45%;
-	}
-
-	.partner .text a {
-		display: inline-block;
-		padding: 10px 15px;
-	    border-radius: 5px;
-	    border: none;
-	    background-color: #8E4096;
-	    color: #fff;
-	    margin: 25px 5px;
-	}
-}
-
-@media (max-width: 768px) {
-	#give .give-donation,
-	#give .volunteer,
-	#give .partner {
-		flex-wrap: wrap;
-
-		.text, .quote, .image {
-			width: 90%;
-		}
-	}
-}
 
 /********************
 	PROGRAMS PAGE 

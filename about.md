@@ -14,7 +14,7 @@ permalink: /about/
 			<p>We rely entirely on donations from our communities and do not receive any federal or state funding.  Individuals like you donate the resources to help us continue supporting victims and their children that call upon SWAN for assistance.  We also receive help and support from our local businesses and churches around the Phoenix area.</p>
 		</div>
 		<div class="tj-profile">
-			<img src="/assets/images/tauheedahprofile.png" alt="picture of tauheedah">
+			<img src="/assets/images/about-page/TauheedahProfile.png" alt="picture of tauheedah">
 			<h5 class="img-subtitle">Tauheedah C. Jabaar – Executive Director</h5>
 			<p>Tauheeda’s vision is to serve abused victims and families fleeing violent situations with the need to rehabilitate their lives.</p>
 			<p>Once a victim of domestic violence herself, Tauheedah has committed her life to helping other victims of abuse.  Tauheedah has spent 8 years volunteering to support victims and survivors of domestic violence.  She has attended hours of training to help better understand the dynamics of domestic violence and how to be an empowering advocate.  This includes continuing education through Arizona Coalition to End Sexual and Domestic Violence and Maricopa Association of Governments. <a class="read-more" data-toggle="collapse" data-target="#tj-info">Read More</a></p>
@@ -47,12 +47,12 @@ permalink: /about/
 		</div>
 		<div class="profile-pics">
 			<div class="profile">
-				<img src="/assets/images/stormprofile.png" alt="storms profile image" width="200" height="220">
-				<h5>Leonard "Storm" Jabaar</h5>
+				<img src="/assets/images/about-page/StormProfile.png" alt="storms profile image" width="200" height="220">
+				<h5>Leonard "Storm" Jabaar - Officer</h5>
 			</div>
 			<div class="profile">
-				<img src="/assets/images/mariaprofile.png" alt="marias profile image" width="200" height="220">
-				<h5>Maria</h5>
+				<img src="/assets/images/about-page/MariaProfile.png" alt="marias profile image" width="200" height="220">
+				<h5>Maria Robledo - Officer</h5>
 			</div>
 		</div>
 	</div>

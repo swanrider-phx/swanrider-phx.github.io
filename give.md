@@ -14,13 +14,13 @@ permalink: /give/
 			<h2>GIVE DONATION</h2>
 			<p>Swan Rider needs your help.  Everything you donate goes directly to victims of domestic violence and their families by means of basic necessities including food, clothes, hygiene products, household goods, bill payment, and school supplies.  Click the donate button below for secure donation through PayPal.</p>
 			<p>Donations to SWAN are 100% tax-deductible. Download tax deduction form here.</p>
-			<a>Donate Money</a>
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPMJS3S47THYL" target="_blank">Donate Money</a>
 			<p>If you are unable to donate monetarily, Swan Rider happily accepts other resources to help support domestic violence victims.  We are open to any potentially helpful resources, but our most common needs are: clothes/shoes, hygiene products, kitchen items/home goods, food, and gift cards.</p>
 			<p>Click the “Donate Items” button below to let us know what you would like to donate.</p>
 			<a href="mailto:swanrider.phx@gmail.com?subject=Item%20Donation&body=Name:%0D%0AItems%20To%20Donate:%0D%0A">Donate Items</a>
 		</div>
 		<div class="image">
-			<img src="/assets/images/girls.jpg" alt="two little girls holding hands">
+			<img src="/assets/images/give-page/girls.jpg" alt="two little girls holding hands">
 		</div>
 	</div>
 	<div class="volunteer" id="volunteer_href">
@@ -42,8 +42,8 @@ permalink: /give/
 			<p>Please contact us by clicking the “Be a Partner” button below and let us know how you would like to help.</p>
 			<a href="mailto:swanrider.phx@gmail">Contact Us</a>
 		</div>
-		<div class="logos">
-			
+		<div class="image">
+			<img src="/assets/images/give-page/partners.jpg" alt="two people holding hands on the beach">
 		</div>
 	</div>
 </div>
