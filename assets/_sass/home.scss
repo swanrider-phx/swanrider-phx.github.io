@@ -3,22 +3,18 @@
 		display: flex;
 		max-height: 450px;
 	}
-
 	.hero-container > * {
 		margin: 5px;
 		box-sizing: border-box;
 	}
-
 	.hero-container .image {
 		width: 60%;
 		/*height: 450px;*/
-
 		img {
 			width: 100%;
 			height: 100%;
 		}
 	}
-
 	.hero-container .story {
 		width: 40%;
 		padding: 0px 50px;
@@ -27,18 +23,15 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-
 		h2 {
 			text-align: left;
 		}
 	}
-
 	.help-btns {
 		margin-top: 10px;
 		display: flex;
 		justify-content: space-around;
 	}
-
 	.help-btns a {
 		display: inline-block;
 		border-radius: 5px;
@@ -47,11 +40,9 @@
 	    background-color: #8E4096;
 	    color: #fff;
 	}
-
 	.help-btns a:hover {
 		text-decoration: none;
 	}
-
 	.stats-bar {
 		height: 125px;
 		padding: 10px;
@@ -60,27 +51,22 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-
 		> * {
 			text-align: center;
 		}
 	}
-
 	.help-bar {
 		margin: 0px 5px 5px 5px;
 		padding: 40px 0px 20px 0px;
 		background-color: #8E4096;
 		color: white;
-
 		> * {
 			text-align: center;
 			margin: auto;
 		}
-
 		p {
 			width: 50%;
 		}
-
 		.arrow-down {
 			width: 0; 
 			height: 0; 
@@ -91,16 +77,13 @@
 			bottom: -60px;
 		}
 	}
-	
 	.help-options-icons {
 		display: flex;
 		justify-content: center;
 		margin-top: 75px;
-
 		.icon {
 			width: 25%;
 		}
-
 		.icon img {
 			display: block;
 			margin: auto;
@@ -110,7 +93,6 @@
 		display: flex;
 		justify-content: center;
 		margin: 100px 0px;
-
 		.help-option {
 			width: 25%;
 			margin: 5px;
@@ -118,30 +100,25 @@
 			background-color: #A7A9AB;
 			text-align: center;
 		}
-
 		.help-option img {
 			display: block;
 			margin: auto;
 		    position: relative;
 		    bottom: 48px;
 		}
-
 		.help-option .flex-container {
 			min-height: 190px;
 		    display: flex;
 		    flex-direction: column;
 		    justify-content: space-between;
 		}
-
 		.help-option h2 {
 			font-size: 24px;
 			margin: 0px;
 		}
-
 		.help-option p {
 			margin: 0px;
 		}
-
 		.help-option a {
 			margin: 10px auto;
 			padding: 5px 25px;
@@ -150,22 +127,18 @@
 			background-color: #8E4096;
 			color: #fff;
 		}
-
 		.help-option a:hover {
 			text-decoration: none;
 		}
 	}
-
 	.testimonial-heading {
 		margin: 15px auto;
 		padding: 0px 0px 40px 0px;
 		text-align: center;
 	}
-
 	.testimonial-block {
 		display: flex;
 		justify-content: center;
-
 		.testimonial {
 			width: 23%;
 			margin: 0px 25px;
@@ -173,7 +146,6 @@
 			background-color: #8E4096;
 			color: #fff;
 		}
-
 		.testimonial p {
 			text-align: right;
 		    padding-right: 15px;
@@ -181,78 +153,79 @@
 		    font-weight: 900;
 		}
 	}
-
 	.sponsors-block {
 		margin: 50px 0px;
+		h2 {
+			margin: 75px auto 25px auto;
+		    text-align: center;
+		}
 		img {
 			width: 100%;
 		}
 	}
-
 	.image-gallery-container {
 		margin: 50px 0px;
+		p {
+		    text-align: center;
+		    margin-top: 10px;
+		    font-style: italic;
+		}
+		#image-carousel {
+			width: 55%;
+			margin: auto;
+		}
 	}
-
-	#image-carousel {
-		width: 55%;
-		margin: auto;
-	}
-
-
 }
 
-@media (max-width: 768px) {
-	#home-page .hero-container {
-		flex-wrap: wrap;
-		max-height: initial;
-
-		.image {
+@media (max-width: 992px) {
+	#home-page {
+		.hero-container {
+			flex-wrap: wrap;
+			max-height: initial;
+			.image {
+				width: 100%;
+			}
+			.story {
+				width: 100%;
+				padding-bottom: 20px;
+				margin-left: 5px;
+			}
+		}
+		.stats-bar {
+			flex-wrap: wrap;
+			height: initial;
+			.statistic {
+				width: 100%;
+			}
+		}
+		.help-options-icons {
+			display: none;
+		}
+		.help-options-block {
+			flex-wrap: wrap;
+			margin-top: 65px;
+			 .help-option {
+			 	width: 75%;
+			 	padding: 20px 10px;
+			 }
+			 .help-option img {
+			 	display: none;
+			 }
+		}
+		.testimonial-block {
+			flex-wrap: wrap;
+			.testimonial {
+				width: 75%;
+				margin: 7.5px 0px;
+			}
+		}
+		.testimonial img {
+			position: initial;
+			margin: 5px auto;
+		}
+		#image-carousel {
 			width: 100%;
+			margin: auto;
 		}
-
-		.story {
-			width: 100%;
-			padding-bottom: 20px;
-			margin-left: 5px;
-		}
-	}
-
-	#home-page .stats-bar {
-		flex-wrap: wrap;
-		height: initial;
-
-		.statistic {
-			width: 100%;
-		}
-	}
-
-	#home-page .help-options-icons {
-		display: none;
-	}
-
-	#home-page .help-options-block {
-		flex-wrap: wrap;
-		margin-top: 65px;
-		 .help-option {
-		 	width: 75%;
-		 	padding: 20px 10px;
-		 }
-
-		 .help-option img {
-		 	display: none;
-		 }
-	}
-
-	#home-page .testimonial-block {
-		flex-wrap: wrap;
-		.testimonial {
-			width: 75%;
-			margin: 7.5px 0px;
-		}
-	}
-
-	#home-page .testimonial img {
-		position: initial;
-		margin: 5px auto;
 	}
 }

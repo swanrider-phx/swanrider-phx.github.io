@@ -9,7 +9,7 @@ permalink: /
 			<img src="/assets/images/home-page/hero-image-small.jpg" alt="mom and daughter walking on the beach">
 		</div>
 		<div class="story">
-			<h2>Our	Story</h2>
+			<h2>Someone Worth Accepting Now</h2>
 			<p>SWAN is dedicated to supporting victims and survivors of domestic violence as an initial point of contact to help get your life back.  We provide tools, education, and resources for victims for victims of domestic violence and their families.  We are a 501(c)3 organization and have provided services to women and families in the Phoenix area since 2007.</p>
 			<div class="help-btns">
 				<a href="/programs">Need help</a>
@@ -82,6 +82,7 @@ permalink: /
 		</div>
 	</div>
 	<div class="sponsors-block">
+		<h2>Sponsors</h2>
 		<img src="/assets/images/home-page/logos.png" alt="logos of sponsors">
 	</div>
 	<div class="image-gallery-container">
@@ -92,12 +93,14 @@ permalink: /
 		      <li data-target="#image-carousel" data-slide-to="1"></li>
 		      <li data-target="#image-carousel" data-slide-to="2"></li>
 		      <li data-target="#image-carousel" data-slide-to="3"></li>
+		      <li data-target="#image-carousel" data-slide-to="4"></li>
+		      <li data-target="#image-carousel" data-slide-to="5"></li>
 		    </ol>
 
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		      <div class="item active">
-		        <img src="/assets/images/carousel/carousel-1.jpg" alt="Tauheedah and two friends unloading a truck">
+		        <img src="/assets/images/carousel/carousel-1.jpg" alt="Tauheedah and two friends taking a break from unloading a truck">
 		      </div>
 
 		      <div class="item">
@@ -108,7 +111,13 @@ permalink: /
 		        <img src="/assets/images/carousel/carousel-3.jpg" alt="Group photo of high school girls pageant">
 		      </div>
 		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-4.jpg" alt="side shot of high school girls pageant">
+		        <img src="/assets/images/carousel/carousel-4.jpg" alt="side shot of two girls with the pageant">
+		      </div>
+		      <div class="item">
+		        <img src="/assets/images/carousel/carousel-5.png" alt="Storm holding up a donated toy box">
+		      </div>
+		      <div class="item">
+		        <img src="/assets/images/carousel/carousel-6.png" alt="Tauheedah organizing boxes">
 		      </div>
 		    </div>
 
@@ -122,6 +131,7 @@ permalink: /
 		      <span class="sr-only">Next</span>
 		    </a>
 	  	</div>
+	  	<p>Pictures from the 2016 Christmas Toy Drive</p>
   	</div>
 
 

@@ -13,7 +13,7 @@ permalink: /give/
 		<div class="text">
 			<h2>GIVE DONATION</h2>
 			<p>Swan Rider needs your help.  Everything you donate goes directly to victims of domestic violence and their families by means of basic necessities including food, clothes, hygiene products, household goods, bill payment, and school supplies.  Click the donate button below for secure donation through PayPal.</p>
-			<p>Donations to SWAN are 100% tax-deductible. Download tax deduction form here.</p>
+			<p>Donations to SWAN are made through PayPal and are 100% tax-deductible. A reciept will be sent via email after donating.</p>
 			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPMJS3S47THYL" target="_blank">Donate Money</a>
 			<p>If you are unable to donate monetarily, Swan Rider happily accepts other resources to help support domestic violence victims.  We are open to any potentially helpful resources, but our most common needs are: clothes/shoes, hygiene products, kitchen items/home goods, food, and gift cards.</p>
 			<p>Click the “Donate Items” button below to let us know what you would like to donate.</p>
