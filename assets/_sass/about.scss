@@ -48,3 +48,13 @@
 		}
 	}
 }
+
+@media (max-width: 992px) {
+	#about .profile-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+	#about .profile-pics .profile {
+		margin: 20px;
+	}
+}

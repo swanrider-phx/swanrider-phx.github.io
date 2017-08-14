@@ -50,12 +50,13 @@
 		</div>
 	</div>
 	<div class="navbar-two">
-		<a href="/">Home</a>
-		<a href="/about">About us</a>
-		<a href="/give">Give</a>
-		<a href="/programs">Programs</a>
-		<a href="/blog">Blog</a>
+		<a href="/" class="link">Home</a>
+		<a href="/about" class="link">About us</a>
+		<a href="/give" class="link">Give</a>
+		<a href="/programs" class="link">Programs</a>
+		<a href="/blog" class="link">Blog</a>
 		<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPMJS3S47THYL" class="donate-btn" target="_blank">DONATE NOW</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon">Menu &#9776;</a>
 	</div>
 </nav>
 
@@ -95,6 +96,10 @@
 		        window.location.hash = hash;
 		      });
 		    }
+		});
+
+		$('.icon').on('click', function(e) {
+			$('.link').slideToggle();
 		});
 	</script>
 </body>
