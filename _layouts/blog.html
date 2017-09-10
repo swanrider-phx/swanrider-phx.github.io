@@ -58,8 +58,24 @@
 		<a href="javascript:void(0);" style="font-size:15px;" class="icon">Menu &#9776;</a>
 	</div>
 </nav>
+	<div id="blog">
+		<div class="heading">
+			<h1>Blog</h1>
+		</div>
+		<div class="container">
+			<div class="article-content">
+				{{ content }}	
+			</div>
 
-    {{ content }}  
+			<div class="articles-list">
+				<ul>
+					{% for post in site.posts %}
+				    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div> <!-- end container -->
+	</div>  
 
 <footer>
 	<div class="contact-us">
@@ -74,58 +90,5 @@
 </footer>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script>
-		$("a[href='#help-bar']").on('click', function(event) {
-		    // Make sure this.hash has a value before overriding default behavior
-		    if (this.hash !== "") {
-		      // Prevent default anchor click behavior
-		      event.preventDefault();
-
-		      // Store hash
-		      var hash = this.hash;
-
-		      // Using jQuery's animate() method to add smooth page scroll
-		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-		      $('html, body').animate({
-		        scrollTop: $(hash).offset().top
-		      }, 800, function(){
-		   
-		        // Add hash (#) to URL when done scrolling (default click behavior)
-		        window.location.hash = hash;
-		      });
-		    }
-		});
-
-		$('.icon').on('click', function(e) {
-			$('.link').slideToggle();
-		});
-	</script>
-	<script>
-	  window.fbAsyncInit = function() {
-	    FB.init({
-	      appId            : '114249052574770',
-	      autoLogAppEvents : true,
-	      xfbml            : true,
-	      version          : 'v2.10'
-	    });
-	    //FB.AppEvents.logPageView();
-	    FB.api(
-		  '/swanrider09?access_token=114249052574770|8a6c58b3a9d8cc9a4e46fc28cf04b64f',
-		  'GET',
-		  {'fields' : 'posts.limit(3){story,description}'},
-		  function(response) {
-		      console.log(response, window.location.pathname);
-		  }
-		);
-	  };
-
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "//connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
-	</script>
 </body>
 </html>

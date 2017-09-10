@@ -1,0 +1,19 @@
+#blog {
+	.container {
+		display: flex;
+    align-items: center;
+    margin: 50px auto;
+	}
+	
+	.article-content {
+		width: 75%;
+	}
+
+	.articles-list {
+		width: 25%;
+		ul {
+			text-align: right;
+		}
+	}
+
+}

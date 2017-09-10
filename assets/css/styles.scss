@@ -4,6 +4,7 @@
 @import 'about';
 @import 'give';
 @import 'home';
+@import 'blog';
 
 body {
 	display: flex;
@@ -231,12 +232,4 @@ footer {
 			padding-left: 15px;
 		}
 	}
-}
-
-/********************
-	BLOG PAGE 
-********************/
-h1.coming-soon {
-	text-align: center;
-	margin-top: 75px;
 }
