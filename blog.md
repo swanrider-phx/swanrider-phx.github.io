@@ -1,14 +1,9 @@
 ---
-layout: main
-title: Blog
+layout: blog
+permalink: /blog/
 ---
 
-<div id="blog">
-	<div class="heading">
-		<h1>Blog</h1>
-	</div>
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
 
-	<!-- <h1 class="coming-soon">Coming Soon!</h1> -->
-
-
-</div>
+{{content}}

@@ -85,54 +85,9 @@ permalink: /
 		<h2>Sponsors</h2>
 		<img src="/assets/images/home-page/logos.png" alt="logos of sponsors">
 	</div>
-	<div class="image-gallery-container">
-		<div id="image-carousel" class="carousel slide" data-ride="carousel">
-		    <!-- Indicators -->
-		    <ol class="carousel-indicators">
-		      <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
-		      <li data-target="#image-carousel" data-slide-to="1"></li>
-		      <li data-target="#image-carousel" data-slide-to="2"></li>
-		      <li data-target="#image-carousel" data-slide-to="3"></li>
-		      <li data-target="#image-carousel" data-slide-to="4"></li>
-		      <li data-target="#image-carousel" data-slide-to="5"></li>
-		    </ol>
-
-		    <!-- Wrapper for slides -->
-		    <div class="carousel-inner">
-		      <div class="item active">
-		        <img src="/assets/images/carousel/carousel-1.jpg" alt="Tauheedah and two friends taking a break from unloading a truck">
-		      </div>
-
-		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-2.jpg" alt="Tauheedah moving boxes">
-		      </div>
-		    
-		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-3.jpg" alt="Group photo of high school girls pageant">
-		      </div>
-		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-4.jpg" alt="side shot of two girls with the pageant">
-		      </div>
-		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-5.png" alt="Storm holding up a donated toy box">
-		      </div>
-		      <div class="item">
-		        <img src="/assets/images/carousel/carousel-6.png" alt="Tauheedah organizing boxes">
-		      </div>
-		    </div>
-
-		    <!-- Left and right controls -->
-		    <a class="left carousel-control" href="#image-carousel" data-slide="prev">
-		      <span class="glyphicon glyphicon-chevron-left"></span>
-		      <span class="sr-only">Previous</span>
-		    </a>
-		    <a class="right carousel-control" href="#image-carousel" data-slide="next">
-		      <span class="glyphicon glyphicon-chevron-right"></span>
-		      <span class="sr-only">Next</span>
-		    </a>
-	  	</div>
-	  	<p>Pictures from the 2016 Christmas Toy Drive</p>
-  	</div>
+	<div class="container">
+		<iframe src="https://calendar.google.com/calendar/embed?src=ghuu5d7hmqjmkp5j25t984sim0%40group.calendar.google.com&ctz=America/Phoenix" style="border: 0; margin: 50px auto; display: block;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
 
 
 </div> <!-- end home-page -->
