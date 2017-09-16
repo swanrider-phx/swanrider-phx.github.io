@@ -1,7 +1,7 @@
 ---
-layout: main
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: main
 ---
 
 <div id="about">

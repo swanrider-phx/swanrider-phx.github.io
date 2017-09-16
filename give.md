@@ -1,7 +1,7 @@
 ---
-layout: main
 title: Give
-permalink: /give/
+permalink: "/give/"
+layout: main
 ---
 
 <div id="give">

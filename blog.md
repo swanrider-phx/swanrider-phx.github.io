@@ -1,6 +1,7 @@
 ---
-layout: blog
+title: Blog
 permalink: /blog/
+layout: blog
 ---
 
 {% assign post = site.posts.first %}
