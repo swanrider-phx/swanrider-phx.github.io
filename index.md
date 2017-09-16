@@ -1,8 +1,9 @@
 ---
-layout: main
 title: Home
-permalink: /
+permalink: "/"
+layout: main
 ---
+
 <div id="home-page">
 	<div class="hero-container">
 		<div class="image">

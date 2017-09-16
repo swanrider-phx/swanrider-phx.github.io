@@ -1,7 +1,7 @@
 ---
-layout: main
 title: Blog
-permalink: /blog/
+permalink: "/blog/"
+layout: main
 ---
 
 <div id="blog">

@@ -1,7 +1,7 @@
 ---
-layout: main
 title: Programs
-permalink: /programs/
+permalink: "/programs/"
+layout: main
 ---
 
 <div id="programs">
