@@ -85,8 +85,8 @@ permalink: /
 		<h2>Sponsors</h2>
 		<img src="/assets/images/home-page/logos.png" alt="logos of sponsors">
 	</div>
-	<div class="container">
-		<iframe src="https://calendar.google.com/calendar/embed?src=ghuu5d7hmqjmkp5j25t984sim0%40group.calendar.google.com&ctz=America/Phoenix" style="border: 0; margin: 50px auto; display: block;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	<div class="container googleCalendar">
+			<iframe src="https://calendar.google.com/calendar/embed?src=ghuu5d7hmqjmkp5j25t984sim0%40group.calendar.google.com&ctz=America/Phoenix" frameborder="0" scrolling="no"></iframe>
 	</div>
 
 
