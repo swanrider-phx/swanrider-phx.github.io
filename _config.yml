@@ -9,12 +9,12 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: 'blog'
-      permalink: '/blog/:title'
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: blog
+    permalink: "/blog/:title"
 email: swanrider.phx@gmail.com
 description: SWAN is dedicated to supporting victims and survivors of domestic violence
   as an initial point of contact to help get your life back.
