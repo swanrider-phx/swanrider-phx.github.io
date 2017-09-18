@@ -1,0 +1,23 @@
+---
+title: SWAN Rider
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: swanrider.phx@gmail.com
+description: SWAN is dedicated to supporting victims and survivors of domestic violence
+  as an initial point of contact to help get your life back.
+baseurl: 
+url: http://swanrider.org
+github_username: swanrider-phx
+sass:
+  sass_dir: assets/_sass
+markdown: kramdown
+plugins:
+- jekyll-feed
+gems:
+- jekyll-feed

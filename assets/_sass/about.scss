@@ -1,0 +1,60 @@
+#about {
+	.content {
+		margin: 10px 10%;
+	}
+
+	.our-story p {
+		font-size: 18px;
+	}
+
+	.tj-profile {
+		font-size: 18px;
+
+		img {
+			display: block;
+			margin: auto;
+			width: 200px;	
+		}
+	}
+
+	.tj-profile h5.img-subtitle {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.tj-profile a.read-more {
+		cursor: pointer;
+	}
+
+	.tj-profile a.read-more:hover {
+		text-decoration: none;
+	}
+
+	.profile-pics {
+		display: flex;
+		justify-content: center;
+		padding: 25px 15px;
+
+		.profile {
+			margin: 0px 20px;
+		}
+
+		img {
+			display: block;
+		}
+
+		h5 {
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	#about .profile-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+	#about .profile-pics .profile {
+		margin: 20px;
+	}
+}

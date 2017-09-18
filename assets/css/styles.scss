@@ -1,0 +1,235 @@
+---
+---
+
+@import 'about';
+@import 'give';
+@import 'home';
+@import 'blog';
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+
+/********************
+	NAVIGATION
+********************/
+
+.navbar-one {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px;
+
+	.swan-logo {
+
+		img {
+			display: block;
+			margin: auto;
+		}
+	}
+	
+	.address {
+		display: flex;
+		align-items: center;
+
+		.icon {
+			margin-right: 7.5px;
+		}
+
+		.text h6 {
+			margin: 0px;
+		}
+
+		.text p {
+			margin: 0px;
+			font-size: 11px;
+		}
+	}
+
+	.email-phone {
+		display: flex;
+		align-items: center;
+
+		.icon {
+			margin-right: 7.5px;
+		}
+
+		.text p {
+			margin: 0px;
+			font-size: 11px;
+		}
+	}
+
+	.social-links a i {
+		color: #8E4096;
+	}
+}
+
+.navbar-two {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #8E4096;
+	padding: 10px;
+
+	a {
+		display: block;
+		color: #fff;
+	}
+
+	.donate-btn {
+		border-radius: 5px;
+	    border: none;
+	    padding: 5px 25px;
+	    background-color: #FFCB5A;
+	    font-weight: 900;
+	    color: #000;
+	}
+
+	.icon {
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-one {
+		.swan-logo {
+			width: initial;
+		}
+
+		.address,
+		.email-phone .icon {
+			display: none;
+		}
+	}
+
+}
+
+@media (max-width: 768px) {
+	.navbar-two {
+		justify-content: space-between;
+	}
+	.navbar-two a {
+		padding: 10px;
+	}
+	.navbar-two .link {
+		width: 100%;
+		order: 3;
+		display: none;
+	}
+	.navbar-two .donate-btn {
+		width: initial;
+		order: 1;
+	}
+	.navbar-two .icon {
+		display: block;
+		width: initial;
+		order: 2;
+	}
+}
+
+/****************
+	FOOTER
+*****************/
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 35px 15px;
+	background-color: #A7A9AB;
+
+	.contact-us {
+		width: 30%;
+	}
+
+	.social-links {
+		width: 30%;
+		text-align: right;
+
+		a {
+			color: #fff;
+			padding: 0px 8px;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	footer {
+		flex-wrap: wrap;
+		padding: 5px;
+	}
+
+	footer .contact-us {
+		width: 85%;
+		margin: 15px 0px;
+	}
+
+	footer .social-links {
+		width: 85%;
+		text-align: center;
+		margin: 15px 0px;
+	}
+}
+
+/*******************************
+	STICKY FOOTER AND HEADINGS
+********************************/
+
+#about, #give, #programs, #blog {
+	flex: 1;
+
+	.heading {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		height: 200px;
+		margin-top: 5px;
+		background-image: url('/assets/images/header.jpg');
+	}
+
+	.heading h1 {
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 768px) {
+	#about, #give, #programs, #blog {
+		.heading {
+			height: 100px;
+			justify-content: center;
+		}
+		.heading h1 {
+			padding: initial;
+
+
+		}
+	}
+}
+
+
+/********************
+	PROGRAMS PAGE 
+********************/
+#programs {
+	.programs-container {
+		margin: 10px 10%;
+	}
+
+	.programs-container .program {
+		margin: 35px 0px;
+
+		h4 {
+			text-decoration: underline;
+		}
+
+		p {
+			padding-left: 15px;
+		}
+	}
+}

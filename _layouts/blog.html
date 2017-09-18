@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  
+  <title>{{ site.title }}</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navigation">	
+	<div class="navbar-one">
+		<div class="swan-logo">
+			<img src="/assets/images/swan-logo-new.png" width="50" height="55" alt="SWAN logo">
+		</div>
+		<div class="address">
+			<div class="icon">
+				<i class="fa fa-address-book fa-2x" aria-hidden="true"></i>
+			</div>
+			<div class="text">
+				<h6>Address:</h6>
+				<p>P.O. Box 90274</p>
+				<p>Phoenix, AZ 85066</p>	
+			</div>
+		</div>
+		<div class="email-phone">
+			<div class="icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></div>
+			<div class="text">
+				<p><strong>Phone:</strong> 623-329-1241</p>
+				<p><strong>Email:</strong> swanrider.phx@gmail.com</p>
+			</div>
+		</div>
+		<div class="social-links">
+			<a href="https://www.facebook.com/swanrider09/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/Lavendre9produc" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+			<a href="https://www.youtube.com/user/Lavendre9productions" target="_blank"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+
+		</div>
+	</div>
+	<div class="navbar-two">
+		<a href="/" class="link">Home</a>
+		<a href="/about" class="link">About us</a>
+		<a href="/give" class="link">Give</a>
+		<a href="/programs" class="link">Programs</a>
+		<a href="/blog" class="link">Blog</a>
+		<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPMJS3S47THYL" class="donate-btn" target="_blank">DONATE NOW</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon">Menu &#9776;</a>
+	</div>
+</nav>
+	<div id="blog">
+		<div class="heading">
+			<h1>Blog</h1>
+		</div>
+		<div class="container">
+			<div class="article-content">
+				{{ content }}	
+			</div>
+
+			<div class="articles-list">
+				<h3>Articles</h3>
+				<ul>
+					{% for post in site.posts %}
+				    <li><a href="{{ post.id }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div> <!-- end container -->
+	</div>  
+
+<footer>
+	<div class="contact-us">
+		<h2>Contact us</h2>
+		<p>If you need immediate assistance or feel in danger please call 911, local law enforcement or the National Domestic Violence Hotline at 1-800-799-7233. If you are safe but need help moving forward please reach out to Tauheedah at 623-329-1241.</p>
+	</div>
+	<div class="social-links">
+		<a href="https://www.facebook.com/swanrider09/" target="_blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/Lavendre9produc" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+		<a href="https://www.youtube.com/user/Lavendre9productions" target="_blank"><i class="fa fa-youtube-square fa-4x" aria-hidden="true"></i></a>
+	</div>
+</footer>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
