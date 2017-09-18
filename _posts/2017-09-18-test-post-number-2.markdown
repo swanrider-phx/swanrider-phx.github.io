@@ -5,6 +5,8 @@ categories:
 - cats
 ---
 
+# Test Post # 2
+
 ![burrito-cat.jpg](/uploads/burrito-cat.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan erat sed leo finibus interdum. Nunc sit amet vulputate urna. Nulla vel risus ipsum. Integer gravida sagittis maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur ac orci lorem. Ut ac consequat lorem. Donec non nulla id erat dignissim mattis placerat vel lorem. Nunc nulla elit, ultrices vel malesuada quis, auctor sed nulla. Duis non facilisis leo. Aliquam congue tortor ut quam mattis varius. Fusce nisl dolor, condimentum vitae tortor sed, bibendum imperdiet orci.
