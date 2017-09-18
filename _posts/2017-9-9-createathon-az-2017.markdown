@@ -1,5 +1,4 @@
 ---
-layout: blog
 title:  "CreateAthon AZ 2017"
 date:   2017-09-9 10:24:10 -0700
 ---
