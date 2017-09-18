@@ -9,28 +9,15 @@ collections:
     title: Uploads
     output: true
 email: swanrider.phx@gmail.com
-description: 'SWAN is dedicated to supporting victims and survivors of domestic violence 
-  as an initial point of contact to help get your life back.'
-baseurl: ""
-url: 'http://swanrider.org'
-github_username:  swanrider-phx
+description: SWAN is dedicated to supporting victims and survivors of domestic violence
+  as an initial point of contact to help get your life back.
+baseurl: 
+url: http://swanrider.org
+github_username: swanrider-phx
 sass:
   sass_dir: assets/_sass
 markdown: kramdown
 plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+- jekyll-feed
 gems:
 - jekyll-feed
-
