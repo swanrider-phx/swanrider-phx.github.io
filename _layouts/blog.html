@@ -55,7 +55,7 @@
 		<a href="/programs" class="link">Programs</a>
 		<a href="/blog" class="link">Blog</a>
 		<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VPMJS3S47THYL" class="donate-btn" target="_blank">DONATE NOW</a>
-		<a href="javascript:void(0);" style="font-size:15px;" class="icon">Menu &#9776;</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon hamburger">Menu &#9776;</a>
 	</div>
 </nav>
 	<div id="blog">
@@ -91,5 +91,10 @@
 </footer>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$('.hamburger').on('click', function(e) {
+			$('.link').slideToggle();
+		});
+	</script>
 </body>
 </html>

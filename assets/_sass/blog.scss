@@ -17,6 +17,7 @@
 		img {
 			display: block;
 			margin: 25px auto 50px auto;
+			max-width: 100%;
 		}
 	}
 
@@ -28,5 +29,19 @@
 
 		}
 	}
+}
 
+@media (max-width: 992px) {
+	#blog .container {
+		flex-wrap: wrap;
+	}
+
+	#blog .article-content {
+		width: 100%;
+	}
+
+	#blog .articles-list {
+		width: 100%;
+		padding: 50px;
+	}
 }
